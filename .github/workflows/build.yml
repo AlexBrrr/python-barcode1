@@ -21,7 +21,7 @@ jobs:
     - name: Install build dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y dpkg build-essential dh-make debhelper devscripts
+        sudo apt-get install -y dpkg build-essential dh-make debhelper devscripts dh-python
 
     - name: Debug Current Directory 
       run: |
